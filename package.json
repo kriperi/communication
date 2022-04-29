@@ -1,12 +1,25 @@
 {
   "name": "communication",
   "version": "1.0.0",
-  "description": "",
+  "description": "* [ ] Create frontend and backend\r     * [ ] Root project with concurrently, prettier and husky\r     * [ ] Client project with parcel, react react-dom react router\r     * [ ] server project with noedemon, express, body-parser, cookie-parser, dotenv\r * [ ] get endpoint i express\r * [ ] husky + prettier\r * [ ] deploy yo heroku\r     * [ ] npm build => client npm install --include=dev && parcel && npm install\r     * [ ] npm start => node server.js\r * [ ] GET /api/login from front page\r     * [ ] Fetch data from server\r     * [ ] Loading time\r     * [ ] Handle error\r * [ ] POST /api/login from login form\r     * [ ] Loading time\r     * [ ] Error handling\r * [ ] Refactor and polish fetch and error handling\r   * [ ] Custom React hook `useLoader`",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriperi/communication.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kriperi/communication/issues"
+  },
+  "homepage": "https://github.com/kriperi/communication#readme",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2"
+  }
 }
